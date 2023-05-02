@@ -28,7 +28,7 @@ Update NashvilleHousing
 SET SaleDateConverted = CONVERT(Date,SaleDate)
 
 
- --------------------------------------------------------------------------------------------------------------------------
+ 
 
 -- Populate Property Address data
 
@@ -227,8 +227,6 @@ DROP COLUMN OwnerAddress, TaxDistrict, PropertyAddress, SaleDate
 
 
 
------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------
 
 --- Importing Data using OPENROWSET and BULK INSERT	
 
