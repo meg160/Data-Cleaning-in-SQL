@@ -8,7 +8,6 @@ Cleaning Data in SQL Queries
 Select *
 From PortfolioProject.dbo.NashvilleHousing
 
---------------------------------------------------------------------------------------------------------------------------
 
 -- Standardize Date Format
 
@@ -59,7 +58,6 @@ Where a.PropertyAddress is null
 
 
 
---------------------------------------------------------------------------------------------------------------------------
 
 -- Breaking out Address into Individual Columns (Address, City, State)
 
@@ -140,7 +138,6 @@ From PortfolioProject.dbo.NashvilleHousing
 
 
 
---------------------------------------------------------------------------------------------------------------------------
 
 
 -- Change Y and N to Yes and No in "Sold as Vacant" field
@@ -173,7 +170,6 @@ SET SoldAsVacant = CASE When SoldAsVacant = 'Y' THEN 'Yes'
 
 
 
------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- Remove Duplicates
 
@@ -205,7 +201,6 @@ From PortfolioProject.dbo.NashvilleHousing
 
 
 
----------------------------------------------------------------------------------------------------------
 
 -- Delete Unused Columns
 
